@@ -22,7 +22,6 @@ export default function Home({allPostsData}) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <Image src="/images/Profile.jpeg" height={144} withd={144} alt="Armando Colmenares" />
         <p>Hello! I'm <b>Armando</b>. I'm a <b>FullStack developer</b>.</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
