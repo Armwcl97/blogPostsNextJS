@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Date from '../components/date';
 import Head from 'next/head';
+import Image from 'next/image'
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
@@ -21,6 +22,7 @@ export default function Home({allPostsData}) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
+        <Image src="../public/images/Profile.jpeg" />
         <p>Hello! I'm <b>Armando</b>. I'm a <b>FullStack developer</b>.</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
