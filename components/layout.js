@@ -6,9 +6,7 @@ import Link from 'next/link';
 
 const name = 'Armando Colmenares';
 export const siteTitle = 'Next.js Sample Website';
-const loaderProp =({ src }) => {
-  return src;
-}
+
 
 export default function Layout({ children, home }) {
   return (
@@ -38,7 +36,6 @@ export default function Layout({ children, home }) {
               height={125}
               width={125}
               alt="ProfilePicture"
-              loader={loaderProp}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
